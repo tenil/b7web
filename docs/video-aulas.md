@@ -40,7 +40,7 @@ Podemos instalar também o TypeScript que entenderá o código da biblioteca no 
 
     npm install --save-dev @type/validator
 
---save-dev significa instalar apenas em ambiente de desenvolvimento.  
+--save-dev ou -D significa instalar apenas em ambiente de desenvolvimento.  
 
 ### Nodemon  
 
@@ -61,3 +61,24 @@ Essa biblioteca executa os arquivos .ts.
 Agora podemos rodar o projeto, com arquivos monitorados, com apenas um comando.
 
     nodemon src/index.ts  
+
+## npm <comando>  
+
+  npm é utilizado para executar os atalhos dentro do package.json.
+
+    npm run start
+    npm run start-srv
+
+## Servidor
+
+### server.ts
+
+    npm install express
+    npm install -D @types/express
+
+## Template Engines
+
+* [pugjs](https://pugjs.org/)
+* [mustachejs](https://github.com/janl/mustache.js/)
+* [edgejs](https://github.com/edge-js/edge)
+* [ejs](https://ejs.co/)
